@@ -8,9 +8,9 @@ import theme from "../styles/theme";
 import { Container } from "../styles/components";
 
 export default ({ children, client, date }) => {
-  React.useEffect(() => {
-    client && window.localStorage.clear();
-  }, []);
+  // React.useEffect(() => {
+  //   client && window.localStorage.clear();
+  // }, []);
 
   return (
     <Container style={{ justifyContent: "space-between" }}>

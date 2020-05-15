@@ -1,103 +1,54 @@
 const page1 = [
-  {
-    statement:
-      "be password protected or have some other kind of security beyond that given by the device itself",
-    scope: "default",
-  },
-  { statement: "use pseudonyms", scope: "default" },
-  { statement: "allow users to set their own usernames", scope: "default" },
-  {
-    statement: "use 'burner' numbers or emails as usernames",
-    scope: "default",
-  },
-  {
-    statement: "be available at all times of the day and night",
-    scope: "default",
-  },
-  {
-    statement: "allow contact between all members of one circle",
-    scope: "default",
-  },
-  { statement: "allow 1-1 contact between core members", scope: "default" },
-  {
-    statement: "allow 1-1 contact between core member and circle coordinator",
-    scope: "default",
-  },
-  {
-    statement: "allow contact between all members of circles within Circles SE",
-    scope: "default",
-  },
+  { statement: "be in Hackney", scope: "default" },
+  { statement: "be in Waltham Forest", scope: "default" },
+  { statement: "be in Newham", scope: "default" },
+  { statement: "be in Redbridge", scope: "default" },
+  { statement: "be in Zone 2", scope: "default" },
+  { statement: "be in Zone 3", scope: "default" },
+  { statement: "be in Zone 4", scope: "default" },
+  { statement: "be on the tube network", scope: "default" },
+  { statement: "be commutable to central london", scope: "default" },
 ];
 
 const page2 = [
-  { statement: "be an app downloaded from the app store", scope: "default" },
-  { statement: "be a website I visit in my browser", scope: "default" },
-  {
-    statement: "be accessible from the home screen of my phone",
-    scope: "default",
-  },
-  { statement: "be usable without a smartphone", scope: "default" },
-  { statement: "be usable on a laptop/computer", scope: "default" },
-  { statement: "allow users to send pictures", scope: "default" },
-  { statement: "allow users to send audio", scope: "default" },
-  { statement: "allow users to send videos", scope: "default" },
-  {
-    statement: "allow users to send their real names and contact details",
-    scope: "default",
-  },
+  { statement: "be near a high street", scope: "default" },
+  { statement: "be detached houses", scope: "default" },
+  { statement: "be semi-detached", scope: "default" },
+  { statement: "not be a block", scope: "default" },
+  { statement: "be no more than 2 flats high", scope: "default" },
+  { statement: "be no more than 3 flats high", scope: "default" },
+  { statement: "be no more than 4 flats high", scope: "default" },
+  { statement: "have spacious garden", scope: "default" },
+  { statement: "have space for allotments", scope: "default" },
 ];
 
 const page3 = [
-  { statement: "cost £1000 to administer the pilot", scope: "default" },
-  { statement: "only works for English speaking users", scope: "default" },
-  {
-    statement: "only works for latest version of smartphones",
-    scope: "default",
-  },
-  {
-    statement:
-      "be maintainable independently by Circles SE without the support of a digital provider",
-    scope: "default",
-  },
-  { statement: "be run as a pilot with one circle only", scope: "default" },
-  { statement: "require in-person onboarding of users", scope: "default" },
-  {
-    statement: "allow users to download/sign up from their own homes",
-    scope: "default",
-  },
+  { statement: "be passivhaus ", scope: "default" },
+  { statement: "have solar panels", scope: "default" },
+  { statement: "be a new build", scope: "default" },
+  { statement: "be beautiful", scope: "default" },
+  { statement: "be affordable", scope: "default" },
   {
     statement:
-      "allow core members to be identifiable to the circle coordinator",
+      "be big enough to fulfil the cohousing social principles, e.g. 20-30",
     scope: "default",
   },
-  { statement: "allow circles SE staff to have accounts", scope: "default" },
+  { statement: "be no larger than 5 units", scope: "default" },
+  { statement: "have a large common kitchen area", scope: "default" },
+  { statement: "have private kitchens for each household", scope: "default" },
 ];
 
 const page4 = [
+  { statement: "cook together as a community", scope: "default" },
   {
-    statement: "allow circle coordinator to suspend/delete a user",
+    statement: "do other activities together as a community",
     scope: "default",
   },
+  { statement: "have shared laundry facilities", scope: "default" },
+  { statement: "include children", scope: "default" },
+  { statement: "include elders", scope: "default" },
   {
-    statement:
-      "prevent users from taking screenshots/sharing content of messages",
-    scope: "default",
-  },
-  {
-    statement: "require users to accept certain terms&conditions",
-    scope: "default",
-  },
-  { statement: "require users to accept a privacy policy", scope: "default" },
-  {
-    statement: "allow users to report messages that seem inappropriate",
-    scope: "default",
-  },
-  {
-    statement: "be controlled and administered by the circle coordinators",
-    scope: "default",
-  },
-  {
-    statement: "be controlled and administered by circles SE staff",
+    statement: "have space for individuals who own cars to keep them",
     scope: "default",
   },
 ];
