@@ -1,0 +1,148 @@
+import TitleLayout from "./Layouts/TitleLayout.js";
+import SplitLayout from "./Layouts/SplitLayout.js";
+import ListLayout from "./Layouts/ListLayout.js";
+import FrontPageLayout from "./Layouts/FrontPageLayout.js";
+import RopeOfScopeLayout from "./Layouts/RopeOfScopeLayout.js";
+
+import {
+  SendButton,
+  Quote,
+  TeamContainer,
+  TeamCard,
+  TimeText,
+} from "./styles/components.js";
+
+import { page1, page2, page3, page4 } from "./ropeOfScopeCards.js";
+import myTheme from "./styles/theme";
+
+import infactLogo from "./assets/images/infact_logo_gradient.svg";
+import wiggly from "./assets/images/wiggly.svg";
+import userPersona from "./assets/images/user_persona.png";
+import userJourney from "./assets/images/user_journey.png";
+
+export const theme = myTheme;
+
+<Header style={{ padding: "0" }}>
+  <div
+    style={{
+      width: theme.spacing.fullWidth,
+      padding: theme.spacing.large,
+      display: "flex",
+      justifyContent: "flex-end",
+    }}
+  >
+    <img
+      style={{ width: "12vw", paddingRight: theme.spacing.large }}
+      src={wiggly}
+    />
+  </div>
+</Header>
+
+<Footer>
+  {/* <div
+    style={{
+      width: theme.spacing.fullWidth,
+      padding: theme.spacing.large,
+      display: "flex",
+      justifyContent: "flex-end",
+    }}
+  >
+    <img
+      style={{ width: "12vw", paddingRight: theme.spacing.large }}
+      src={infactLogo}
+    />
+  </div> */}
+</Footer>
+
+<FrontPageLayout client="Rope of Scope tool" date="built by InFact Digital Co-op">
+
+</FrontPageLayout>
+
+<Notes></Notes>
+
+---
+
+<TitleLayout>
+
+## An exercise to figure out...
+
+...what the product <u>must</u>, <u>could</u> and <u>can't</u> be.
+
+<div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    paddingTop: `${theme.spacing.large}`,
+  }}
+>
+  <div
+    style={{
+      backgroundColor: `${theme.colors.green}`,
+      padding: `${theme.spacing.medium}`,
+      margin: `${theme.spacing.small}`,
+    }}
+  >
+    must
+  </div>
+  <div
+    style={{
+      backgroundColor: `${theme.colors.gray}`,
+      padding: `${theme.spacing.medium}`,
+      margin: `${theme.spacing.small}`,
+    }}
+  >
+    could
+  </div>
+  <div
+    style={{
+      backgroundColor: `${theme.colors.red}`,
+      padding: `${theme.spacing.medium}`,
+      margin: `${theme.spacing.small}`,
+    }}
+  >
+    can't
+  </div>
+</div>
+
+</TitleLayout>
+
+<Notes>
+  Explain exercise by demonstrating. 
+  Say it out loud to yourself. 
+  The aim is to get as many cards as possible in 'could' and as few as possible in 'must' or 'can't' - being really strict about this will give us the
+  outline of the MVP.
+
+Spend 5-10 mins doing this individually - go to the url - then we'll come together and go through it.
+Your answers will save, so you can go backwards and forwards between the slides. Click the 'Send answers!' button at the end to send me a copy of your choices, before we share back.
+This will be useful for me to know even if we change some of them.
+
+</Notes>
+
+---
+
+<RopeOfScopeLayout scopeCards={page1} pageIndex={1} />
+
+---
+
+<RopeOfScopeLayout scopeCards={page2} pageIndex={2} />
+
+---
+
+<RopeOfScopeLayout scopeCards={page3} pageIndex={3} />
+
+---
+
+<RopeOfScopeLayout scopeCards={page4} pageIndex={4} />
+
+---
+
+<SendButton>Send answers!</SendButton>
+
+
+---
+
+<FrontPageLayout client="We hope this was helpful!" date="love, InFact Digital Co-op 💖">
+
+</FrontPageLayout>
+
+---

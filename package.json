@@ -1,0 +1,16 @@
+{
+  "name": "infact-kickoff-deck",
+  "version": "1.0.0",
+  "description": "Circles SE Kickoff Meetinig",
+  "main": "index.js",
+  "author": "lucymk <lucy.m.king92@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx --no-html"
+  },
+  "dependencies": {
+    "mdx-deck": "^4.1.1",
+    "styled-components": "^5.1.0"
+  }
+}
