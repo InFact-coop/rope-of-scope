@@ -131,7 +131,7 @@ const SendButton = () => {
     <form
       style={{ display: "flex", flexDirection: "column" }}
       onSubmit={submitForm}
-      action="https://formspree.io/xzbaobgv"
+      action="https://formspree.io/xlepgevk"
       method="POST"
     >
       <input
